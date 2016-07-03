@@ -1,0 +1,14 @@
+{
+    "models": [
+        "IRR-01"
+    ],
+    "boards": [
+        "ruff-mbd-v1"
+    ],
+    "inputs": {
+        "gpio": {
+            "type": "gpio",
+            "reserve": "gpio-11/gpio"
+        }
+    }
+}
