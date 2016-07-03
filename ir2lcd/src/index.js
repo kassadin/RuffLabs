@@ -41,5 +41,4 @@ $.ready(function (error) {
 $.end(function () {
     $('#led-g').turnOff();
     lcd.turnOff();
-    ir.turnOff();
 });
