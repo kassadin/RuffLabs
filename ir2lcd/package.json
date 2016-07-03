@@ -1,0 +1,13 @@
+{
+    "name": "ir2lcd",
+    "version": "0.1.0",
+    "description": "Use Infrared to turn on/off lcd ",
+    "author": "kassadin",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "lcd1602-pcf8574a-hd44780": "^0.2.1",
+            "ruff-v1-infrared-receiver": "^0.3.1"
+        }
+    }
+}
