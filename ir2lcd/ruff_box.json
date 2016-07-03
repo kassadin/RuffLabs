@@ -573,6 +573,17 @@
             }
         },
         {
+            "id": "ir",
+            "model": "IRR-01",
+            "driver": "ruff-v1-infrared-receiver",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "reserve": "gpio-11/gpio"
+                }
+            }
+        },
+        {
             "id": "lcd:hd44780",
             "model": "LCD1602",
             "driver": "hd44780",
@@ -635,17 +646,6 @@
                 }
             },
             "alias": "lcd"
-        },
-        {
-            "id": "ir",
-            "model": "IRR-01",
-            "driver": "ruff-v1-infrared-receiver",
-            "inputs": {
-                "gpio": {
-                    "type": "gpio",
-                    "reserve": "gpio-11/gpio"
-                }
-            }
         }
     ]
 }

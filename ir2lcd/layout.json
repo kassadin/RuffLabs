@@ -1,3 +1,10 @@
 {
-    "board": "ruff-mbd-v1"
+    "board": "ruff-mbd-v1",
+    "mapping": {
+        "lcd/vcc": "ruff-mbd-v1/vdd-8",
+        "lcd/gnd": "ruff-mbd-v1/gnd-0",
+        "lcd/i2c": "ruff-mbd-v1/i2c-0",
+        "ir/vcc": "ruff-mbd-v1/vdd-0",
+        "ir/gnd": "ruff-mbd-v1/gnd-1"
+    }
 }
